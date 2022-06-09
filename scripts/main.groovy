@@ -1,5 +1,5 @@
 def executeTests() {
-    echo 'tests will be executed here'
+    sh 'python3 -m unittest'
 }
 
 def build(){
